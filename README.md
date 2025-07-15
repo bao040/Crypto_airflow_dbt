@@ -7,7 +7,7 @@ This project implements an automated, scalable data pipeline for cryptocurrency 
 ## 🚀 Project Overview
 
 1. **Data Extraction**: Apache Airflow orchestrates scheduled tasks to pull raw market data (prices, volumes, market caps, etc.) from the [CoinGecko API](https://www.coingecko.com/en/api).
-2. **Data Transformation**: dbt (data build tool) applies SQL-based transformations—staging, modeling, and testing—to prepare clean, analytics-ready tables.
+2. **Data Transformation**: dbt (data build tool) applies SQL-based transformations—staging, modeling, and testing—to prepare clean, analytics-ready tables, and performing incremental materialization and snapshots in controlling how the data is treated.
 3. **Data Storage**: The processed data is loaded into your target warehouse/schema (e.g., Snowflake, BigQuery, Postgres) for easy querying.
 4. **Documentation & Lineage**: dbt Docs generates a browsable DAG and data lineage, so you can track dependencies and model metadata.
 
