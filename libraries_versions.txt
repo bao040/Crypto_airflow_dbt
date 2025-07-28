@@ -39,7 +39,7 @@ confluent-kafka==2.5.0
 connexion==2.14.2
 cron-descriptor==1.4.5
 croniter==6.0.0
-cryptography==42.0.8
+cryptography==45.0.5
 daff==1.4.2
 dbt-adapters==1.9.0
 dbt-common==1.12.0
